@@ -36,5 +36,32 @@
 .main {
   position: relative;
   top: 69px;
+}
+
+.main .container {
   display: flex;
+  background-image: url(../images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.container .text {
+  width: 1200px;
+  height: 60px;
+  align-self: center;
+  background-color: black;
+}
+
+.text h2 {
+  padding-top: 5px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.text h4 {
+  padding: 10px;
+  margin: 0;
+  padding-bottom: 5px;
 }
