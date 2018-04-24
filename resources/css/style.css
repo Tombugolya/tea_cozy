@@ -3,7 +3,7 @@ body {
   font-family: Helvetica;
   color: seashell;
   font-size: 22px;
-  /*opacity: 0.9;*/
+  opacity: 0.9;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ a {
 
 .main {
   position: relative;
-  top: 60px;
+  /*top: 60px;*/
 }
 
 .main .container {
@@ -80,7 +80,7 @@ a {
 
 .content {
   position: relative;
-  top: 69px;
+  /*top: 69px;*/
   width: 1000px;
   margin: 0 auto;
 }
@@ -119,6 +119,10 @@ a {
   justify-content: space-between;
 }
 
+#tea {
+  visibility: hidden;
+}
+
 /* Location */
 
 .image {
@@ -134,6 +138,7 @@ a {
   position: relative;
   margin: 0;
   padding-top: 100px;
+
 }
 
 .container-location {
@@ -149,8 +154,28 @@ a {
   height: 250px;
 }
 
-.box.unique {
+#down {
+  position: relative;
+  top: 60px;
+}
 
+/* Footer */
+
+.footer {
+  position: relative;
+  top: 85px;
+}
+
+.height-footer {
+  height: 200px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+h5 {
+  margin-top: 20px;
 }
 
 
